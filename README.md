@@ -1,8 +1,25 @@
-# React + Vite
+BeyondChats - Chatbot Setup & Integration UI
+🚀 BeyondChats is a chatbot company that helps businesses integrate AI-powered chatbots into their websites. This project provides a user-friendly, mobile-responsive UI for setting up a chatbot, managing integrations, and monitoring website scraping status.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Features
+1️⃣ User Registration
+✅ User enters Name, Email, Password
+✅ Option to Continue with Google
+✅ Email verification step to ensure genuine registrations
 
-Currently, two official plugins are available:
+2️⃣ Organization Setup
+✅ User enters Company Name, Website URL, and Description
+✅ (Bonus) Auto-fetch meta-description from the website URL
+✅ Displays scraped pages detected from the website (dummy data used)
+✅ Shows pending & completed scrapes
+✅ Clickable pages to view scraped content chunks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3️⃣ Chatbot Integration & Testing
+✅ Test Chatbot button to open a dummy chatbot on the client’s website
+✅ Integration Guide for easy setup (copy-paste script)
+✅ Email instructions to a developer
+✅ Test Integration button
+✅ 🎉 Success UI with Confetti when integration is detected
+✅ "Explore Admin Panel" & "Start Talking to Chatbot" buttons
+✅ Social Media Sharing buttons
+✅ 🚧 Error UI if integration is not detected
